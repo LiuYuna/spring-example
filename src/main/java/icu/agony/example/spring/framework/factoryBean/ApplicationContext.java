@@ -1,6 +1,5 @@
-package icu.agony.example.spring.factoryBean;
+package icu.agony.example.spring.framework.factoryBean;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

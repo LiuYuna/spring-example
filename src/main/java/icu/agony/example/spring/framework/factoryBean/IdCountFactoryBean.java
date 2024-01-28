@@ -1,4 +1,4 @@
-package icu.agony.example.spring.factoryBean;
+package icu.agony.example.spring.framework.factoryBean;
 
 import lombok.Getter;
 import org.springframework.beans.factory.FactoryBean;

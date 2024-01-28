@@ -1,4 +1,4 @@
-package icu.agony.example.spring.factoryBean;
+package icu.agony.example.spring.framework.factoryBean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
