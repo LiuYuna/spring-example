@@ -1,9 +1,7 @@
 package icu.agony.example.spring.framework.factoryBean;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-@SpringBootApplication
 public class ApplicationContext {
     public static void main(String[] args) {
         final String packageName = "icu.agony.example.spring.factoryBean";
