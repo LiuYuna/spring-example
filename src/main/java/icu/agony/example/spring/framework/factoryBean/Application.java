@@ -2,10 +2,10 @@ package icu.agony.example.spring.framework.factoryBean;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class ApplicationContext {
+public class Application {
 
     public static void main(String[] args) {
-        final String packageName = ApplicationContext.class.getPackageName();
+        final String packageName = Application.class.getPackageName();
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(packageName);
         // 第一次获取
         IdCount idCount1 = applicationContext.getBean(IdCount.class);
